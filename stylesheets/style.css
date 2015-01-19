@@ -282,3 +282,12 @@ h3 {
     font-size: 15px;
     margin-left: 25px;
 }
+
+.divide {
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    height: 50px;
+    border-bottom-width: 1px;
+    width: 50px;
+    display: inline-block;
+}
