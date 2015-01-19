@@ -265,6 +265,10 @@ h3 {
 .opt-left a {
   font-size: 20px;
   font-weight: bold;
+  border-right-style: solid;
+  border-right-color: gray;
+  border-right-width: 1px;
+  padding-right: 15px;
 }
 
 .query {
