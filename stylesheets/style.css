@@ -139,6 +139,7 @@ h3 {
   height: 36px;
   position:relative;
   top:12px;
+  right:5px;
 }
 
 /* line 76, ../sass/style.scss */
@@ -251,4 +252,9 @@ h3 {
 .linkedin-logo {
   position: relative;
   bottom: -14px;
+}
+
+.opt-left a {
+  font-size: 20px;
+  font-weight: bold;
 }
