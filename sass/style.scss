@@ -1,174 +1,255 @@
 @import "compass/reset";
 @import "compass/css3";
 
-// li {
-// 	display: inline;
-// 	padding-right:60px;
-// }
+/* line 4, ../sass/style.scss */
+li {
+  display: inline;
+  padding-right: 60px;
+}
 
-// a ,p{
-// 	color:white;
-// 	text-decoration:none;
-// }
+/* line 9, ../sass/style.scss */
+a, p {
+  color: white;
+  text-decoration: none;
+}
 
-// body {
+/* line 18, ../sass/style.scss */
+h1 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
 
-// }
+/* line 25, ../sass/style.scss */
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  color:white;
+}
 
-// h1 {
-// 	padding-top:20px;
-// 	padding-bottom:10px;
-// 	text-align:center;
-// 	font-size:50px;
-// }
+/* line 31, ../sass/style.scss */
+h3 {
+  color: white;
+  font-size: 20px;
+}
 
-// h2 {
-// 	margin-bottom:20px;
-// 	text-align:center;
-// 	font-size:18px;
-// }
+/* line 39, ../sass/style.scss */
+.content-center {
+  text-align: center;
+  padding: 10px;
+}
 
-// h3 {
-// 	color:white;
-// 	font-size:20px;
-// }
+/* line 44, ../sass/style.scss */
+.opt-bar {
+  padding: 5px;
+  background-color:black;
+  line-height:45px;
+  overflow:hidden;
+}
 
-// .content-header {
-// }
+/* line 49, ../sass/style.scss */
+.opt-left {
+  display: inline-block;
+  float:left;
+}
 
-// .content-center {
-// 	text-align: center;
-// 	padding:10px;
-// }
+/* line 54, ../sass/style.scss */
+.opt-right {
+  display: inline-block;
+  float:right;
+}
 
-// .opt-bar {
-// 	padding:5px;
-// 	background-color:black;
-// 	line-height:45px;
-// }
+/* line 59, ../sass/style.scss */
+.opt-button {
+  margin-bottom: 40px;
+}
 
-// .opt-left {
-//     display: inline-block;
-//     margin-left:15%;
-// }
+/* line 67, ../sass/style.scss */
+.nav-bar {
+  padding: 6px;
+}
 
-// .opt-right {
-//     display: inline-block;
-//     margin-left:45%;
-// }
+/* line 72, ../sass/style.scss */
+.logo {
+  height: 36px;
+  position:relative;
+  top:12px;
+  right:5px;
 
-// .opt-button {
-//     margin-bottom: 40px;
-// }
+}
 
-// .opt-image {
+.user-image {
+  height:26px;
+  position: relative;
+  top: 8px;
+  left: 5px;
+  border-radius: 2px;
+}
 
-// }
+/* line 76, ../sass/style.scss */
+.menu {
+  // margin-left: 15%;
+}
 
-// .nav-bar {
-// 	background-color:gray;
-// 	padding:6px;
-// }
+/* line 80, ../sass/style.scss */
+.orange-button {
+  background-color: orange;
+  padding: 4px 13px;
+  border-radius: 2px;
+}
 
-// .logo {
-// 	height:36px;
-// 	position: relative;
-//   	top: 12px;
-// }
+/* line 86, ../sass/style.scss */
+.blue-button {
+  background: #2672AE;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 2px;
+  margin-right: 30px;
+  display: inline-block;
+  padding-left: 50px;
+  background-image: url('../images/linkedin-logo.png');
+  background-repeat: no-repeat;
+  background-position: 4px center;
+}
 
-// .menu {
-//     margin-left: 15%;
-// }
+/* line 93, ../sass/style.scss */
+.transparent-button {
+  padding: 12px;
+  border-radius: 2px;
+  border: solid 2px white;
+}
 
-// .orange-button {
-//     background-color: orange;
-//     padding: 5px;
-//     border-radius: 2px;
-// }
+/* line 99, ../sass/style.scss */
+.white-button {
+  background-color: white;
+  padding: 15px;
+  border-radius: 2px;
+  display: inline-block;
+  padding-left: 40px;
+  background-image: url('../images/linkedin-logo.png');
+  background-repeat: no-repeat;
+  background-position: 3px center;
+}
 
-// .blue-button {
-// 	background: #2672AE;
-//     padding: 15px;
-//     border-radius: 2px;
-//     margin-right: 30px;
-// }
+/* line 105, ../sass/style.scss */
+.white-button span {
+  color: #2672AE;
+}
 
-// .transparent-button {
-//     padding: 15px;
-//     border-radius: 2px;
-// 	border:solid 2px white;    
-// }
+/* line 109, ../sass/style.scss */
+.footer {
+  background-color: #3b3835;
+}
 
-// .white-button {
-// 	background-color: white;
-//     padding: 15px;
-//     border-radius: 2px;
-// }
+/* line 113, ../sass/style.scss */
+.main {
+  background-image: url(../images/background.png);
+  text-align: center;
+}
 
-// .white-button span {
-// 	color: #2672AE;
-// } 
+/* line 118, ../sass/style.scss */
+.center-message {
+  margin-top: 50px;
+}
 
-// .footer {
-// 	background-color:#3b3835;
-// }
+/* line 123, ../sass/style.scss */
+.center-message p {
+  font-size: 20px;
+  padding: 0 250px;
+  line-height: 1.5;
+}
 
-// .main {
-// 	background-image: url(../images/background.png);
-// 	text-align: center;
-// }
+/* line 129, ../sass/style.scss */
+.left-img {
+  position: relative;
+  right: -160px;
+  z-index: 1;
+}
 
-// .center-message {
-// 	margin-top:50px;
+/* line 135, ../sass/style.scss */
+.middle-img {
+  position: relative;
+  right: -100px;
+  z-index: 0;
+}
 
-// }
+/* line 141, ../sass/style.scss */
+.right-img {
+  position: relative;
+  left: -100px;
+}
 
-// .center-message p{
-// 	font-size:20px;
-// 	padding: 0 450px;
-//     line-height: 1.5;
-// }
+/* line 146, ../sass/style.scss */
+.step {
+  display: inline-block;
+  margin: 0 40px;
+}
 
-// .left-img {
-// 	position: relative;
-//     right: -160px;
-//     z-index: 1;
-// }
+/* line 151, ../sass/style.scss */
+.step-span {
+  color: gray;
+  font-size: 15px;
+}
 
-// .middle-img {
-//     position: relative;
-//     right: -100px;
-//     z-index: 0;
-// }
+/* line 156, ../sass/style.scss */
+.footer-span {
+  color: gray;
+  font-size: 13px;
+}
 
-// .right-img {
-//     position: relative;
-//     left: -100px;
-// }
+/* line 161, ../sass/style.scss */
+.angular-span {
+  font-size: 50px;
+  color: gray;
+}
 
-// .step {
-//     display: inline-block;
-//     margin:0 40px;
-// }
+/* line 166, ../sass/style.scss */
+.linkedin-logo {
+  position: relative;
+  bottom: -14px;
+}
 
-// .step-span {
-// 	color:gray;
-// 	font-size:15px;
-// }
+.opt-left a {
+  font-size: 20px;
+  font-weight: bold;
+  border-right-style: solid;
+  border-right-color: gray;
+  border-right-width: 1px;
+  padding-right: 15px;
+}
 
-// .footer-span {
-// 	color:gray;
-// 	font-size:13px;
-// }
+.query {
+    border:0;
+    line-height: 27px;
+    background-color: #4d4d4d;
+    width: 200px;
+    border-radius: 2px;
+    font-size: 15px;
+    margin-left: 25px;
+    padding: 0 6px;
+}
 
-// .angular-span {
-//     font-size: 50px;
-//     color: gray;
-// }
+.divide {
+    border-bottom-style: solid;
+    border-bottom-color: gray;
+    height: 50px;
+    border-bottom-width: 1px;
+    width: 50px;
+    display: inline-block;
+}
 
-// .linkedin-logo {
-// 	position:relative;
-// 	bottom:-14px;
-// }
+.container {
+	padding: 0 15%;
+}
 
+.black {
+	background-color:black;
+}
 
+.gray {
+	background-color:gray;
+}
