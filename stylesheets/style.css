@@ -64,21 +64,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /* line 4, ../sass/style.scss */
-/* line 5, ../sass/style.scss */
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* line 4, ../sass/style.scss */
+/* line 8, ../sass/style.scss */
 li {
   display: inline;
   padding-right: 60px;
 }
 
 /* line 9, ../sass/style.scss */
-/* line 11, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
 a, p {
   color: white;
   text-decoration: none;
 }
 
 /* line 18, ../sass/style.scss */
-/* line 17, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 h1 {
   padding-top: 20px;
   padding-bottom: 10px;
@@ -88,7 +93,7 @@ h1 {
 }
 
 /* line 25, ../sass/style.scss */
-/* line 26, ../sass/style.scss */
+/* line 29, ../sass/style.scss */
 h2 {
   margin-bottom: 20px;
   text-align: center;
@@ -97,21 +102,21 @@ h2 {
 }
 
 /* line 31, ../sass/style.scss */
-/* line 34, ../sass/style.scss */
+/* line 37, ../sass/style.scss */
 h3 {
   color: white;
   font-size: 20px;
 }
 
 /* line 39, ../sass/style.scss */
-/* line 40, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 .content-center {
   text-align: center;
   padding: 10px;
 }
 
 /* line 44, ../sass/style.scss */
-/* line 46, ../sass/style.scss */
+/* line 49, ../sass/style.scss */
 .opt-bar {
   padding: 5px;
   background-color: black;
@@ -120,33 +125,33 @@ h3 {
 }
 
 /* line 49, ../sass/style.scss */
-/* line 54, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 .opt-left {
   display: inline-block;
   float: left;
 }
 
 /* line 54, ../sass/style.scss */
-/* line 60, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .opt-right {
   display: inline-block;
   float: right;
 }
 
 /* line 59, ../sass/style.scss */
-/* line 66, ../sass/style.scss */
+/* line 69, ../sass/style.scss */
 .opt-button {
   margin-bottom: 40px;
 }
 
 /* line 67, ../sass/style.scss */
-/* line 71, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 .nav-bar {
   padding: 6px;
 }
 
 /* line 72, ../sass/style.scss */
-/* line 76, ../sass/style.scss */
+/* line 79, ../sass/style.scss */
 .logo {
   height: 36px;
   position: relative;
@@ -154,7 +159,7 @@ h3 {
   right: 5px;
 }
 
-/* line 84, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 .user-image {
   height: 26px;
   position: relative;
@@ -165,7 +170,7 @@ h3 {
 
 /* line 76, ../sass/style.scss */
 /* line 80, ../sass/style.scss */
-/* line 98, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .orange-button {
   background-color: orange;
   padding: 4px 13px;
@@ -173,7 +178,7 @@ h3 {
 }
 
 /* line 86, ../sass/style.scss */
-/* line 105, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .blue-button {
   background: #2672AE;
   padding-right: 15px;
@@ -189,7 +194,7 @@ h3 {
 }
 
 /* line 93, ../sass/style.scss */
-/* line 120, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .transparent-button {
   padding: 12px;
   border-radius: 2px;
@@ -197,7 +202,7 @@ h3 {
 }
 
 /* line 99, ../sass/style.scss */
-/* line 127, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 .white-button {
   background-color: white;
   padding: 15px;
@@ -210,32 +215,32 @@ h3 {
 }
 
 /* line 105, ../sass/style.scss */
-/* line 139, ../sass/style.scss */
+/* line 142, ../sass/style.scss */
 .white-button span {
   color: #2672AE;
 }
 
 /* line 109, ../sass/style.scss */
-/* line 144, ../sass/style.scss */
+/* line 147, ../sass/style.scss */
 .footer {
   background-color: #3b3835;
 }
 
 /* line 113, ../sass/style.scss */
-/* line 149, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 .main {
   background-image: url(../images/background.png);
   text-align: center;
 }
 
 /* line 118, ../sass/style.scss */
-/* line 155, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 .center-message {
   margin-top: 50px;
 }
 
 /* line 123, ../sass/style.scss */
-/* line 160, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 .center-message p {
   font-size: 20px;
   padding: 0 250px;
@@ -243,7 +248,7 @@ h3 {
 }
 
 /* line 129, ../sass/style.scss */
-/* line 167, ../sass/style.scss */
+/* line 170, ../sass/style.scss */
 .left-img {
   position: relative;
   right: -160px;
@@ -251,7 +256,7 @@ h3 {
 }
 
 /* line 135, ../sass/style.scss */
-/* line 174, ../sass/style.scss */
+/* line 177, ../sass/style.scss */
 .middle-img {
   position: relative;
   right: -100px;
@@ -259,48 +264,48 @@ h3 {
 }
 
 /* line 141, ../sass/style.scss */
-/* line 181, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .right-img {
   position: relative;
   left: -100px;
 }
 
 /* line 146, ../sass/style.scss */
-/* line 187, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 .step {
   display: inline-block;
-  margin: 0 40px;
+  margin: 0 20px;
 }
 
 /* line 151, ../sass/style.scss */
-/* line 193, ../sass/style.scss */
+/* line 196, ../sass/style.scss */
 .step-span {
   color: gray;
   font-size: 15px;
 }
 
 /* line 156, ../sass/style.scss */
-/* line 199, ../sass/style.scss */
+/* line 202, ../sass/style.scss */
 .footer-span {
   color: gray;
   font-size: 13px;
 }
 
 /* line 161, ../sass/style.scss */
-/* line 205, ../sass/style.scss */
+/* line 208, ../sass/style.scss */
 .angular-span {
   font-size: 50px;
   color: gray;
 }
 
 /* line 166, ../sass/style.scss */
-/* line 211, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .linkedin-logo {
   position: relative;
   bottom: -14px;
 }
 
-/* line 216, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 .opt-left a {
   font-size: 20px;
   font-weight: bold;
@@ -310,7 +315,7 @@ h3 {
   padding-right: 15px;
 }
 
-/* line 225, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .query {
   border: 0;
   line-height: 27px;
@@ -322,7 +327,7 @@ h3 {
   padding: 0 6px;
 }
 
-/* line 236, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 .divide {
   border-bottom-style: solid;
   border-bottom-color: gray;
@@ -332,17 +337,17 @@ h3 {
   display: inline-block;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 248, ../sass/style.scss */
 .container {
   padding: 0 15%;
 }
 
-/* line 249, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .black {
   background-color: black;
 }
 
-/* line 253, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 .gray {
   background-color: gray;
 }
