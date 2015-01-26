@@ -253,59 +253,62 @@ h3 {
   position: relative;
   right: -160px;
   z-index: 1;
+  vertical-align: bottom;
 }
 
 /* line 135, ../sass/style.scss */
-/* line 177, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .middle-img {
   position: relative;
   right: -100px;
+  vertical-align: bottom;
   z-index: 0;
 }
 
 /* line 141, ../sass/style.scss */
-/* line 184, ../sass/style.scss */
+/* line 186, ../sass/style.scss */
 .right-img {
   position: relative;
   left: -100px;
+  vertical-align: bottom;
 }
 
 /* line 146, ../sass/style.scss */
-/* line 190, ../sass/style.scss */
+/* line 193, ../sass/style.scss */
 .step {
   display: inline-block;
   margin: 0 20px;
 }
 
 /* line 151, ../sass/style.scss */
-/* line 196, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .step-span {
   color: gray;
   font-size: 15px;
 }
 
 /* line 156, ../sass/style.scss */
-/* line 202, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 .footer-span {
   color: gray;
   font-size: 13px;
 }
 
 /* line 161, ../sass/style.scss */
-/* line 208, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .angular-span {
   font-size: 50px;
   color: gray;
 }
 
 /* line 166, ../sass/style.scss */
-/* line 214, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
 .linkedin-logo {
   position: relative;
   bottom: -14px;
 }
 
-/* line 219, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .opt-left a {
   font-size: 20px;
   font-weight: bold;
@@ -315,7 +318,7 @@ h3 {
   padding-right: 15px;
 }
 
-/* line 228, ../sass/style.scss */
+/* line 231, ../sass/style.scss */
 .query {
   border: 0;
   line-height: 27px;
@@ -327,7 +330,7 @@ h3 {
   padding: 0 6px;
 }
 
-/* line 239, ../sass/style.scss */
+/* line 242, ../sass/style.scss */
 .divide {
   border-bottom-style: solid;
   border-bottom-color: gray;
@@ -337,17 +340,17 @@ h3 {
   display: inline-block;
 }
 
-/* line 248, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .container {
   padding: 0 15%;
 }
 
-/* line 252, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 .black {
   background-color: black;
 }
 
-/* line 256, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .gray {
   background-color: gray;
 }

@@ -171,12 +171,14 @@ h3 {
   position: relative;
   right: -160px;
   z-index: 1;
+  vertical-align:bottom;
 }
 
 /* line 135, ../sass/style.scss */
 .middle-img {
   position: relative;
   right: -100px;
+  vertical-align:bottom;
   z-index: 0;
 }
 
@@ -184,6 +186,7 @@ h3 {
 .right-img {
   position: relative;
   left: -100px;
+  vertical-align:bottom;
 }
 
 /* line 146, ../sass/style.scss */
