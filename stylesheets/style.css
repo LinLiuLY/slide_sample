@@ -153,13 +153,10 @@ h3 {
 /* line 72, ../sass/style.scss */
 /* line 79, ../sass/style.scss */
 .logo {
-  height: 36px;
-  position: relative;
-  top: 12px;
-  right: 5px;
+  display: inline-block;
 }
 
-/* line 87, ../sass/style.scss */
+/* line 86, ../sass/style.scss */
 .user-image {
   height: 26px;
   position: relative;
@@ -170,7 +167,7 @@ h3 {
 
 /* line 76, ../sass/style.scss */
 /* line 80, ../sass/style.scss */
-/* line 101, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .orange-button {
   background-color: orange;
   padding: 4px 13px;
@@ -178,7 +175,7 @@ h3 {
 }
 
 /* line 86, ../sass/style.scss */
-/* line 108, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .blue-button {
   background: #2672AE;
   padding-right: 15px;
@@ -194,7 +191,7 @@ h3 {
 }
 
 /* line 93, ../sass/style.scss */
-/* line 123, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 .transparent-button {
   padding: 12px;
   border-radius: 2px;
@@ -202,7 +199,7 @@ h3 {
 }
 
 /* line 99, ../sass/style.scss */
-/* line 130, ../sass/style.scss */
+/* line 128, ../sass/style.scss */
 .white-button {
   background-color: white;
   padding: 15px;
@@ -215,32 +212,32 @@ h3 {
 }
 
 /* line 105, ../sass/style.scss */
-/* line 142, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 .white-button span {
   color: #2672AE;
 }
 
 /* line 109, ../sass/style.scss */
-/* line 147, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 .footer {
   background-color: #3b3835;
 }
 
 /* line 113, ../sass/style.scss */
-/* line 152, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .main {
   background-image: url(../images/background.png);
   text-align: center;
 }
 
 /* line 118, ../sass/style.scss */
-/* line 158, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .center-message {
   margin-top: 50px;
 }
 
 /* line 123, ../sass/style.scss */
-/* line 163, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .center-message p {
   font-size: 20px;
   padding: 0 250px;
@@ -248,7 +245,7 @@ h3 {
 }
 
 /* line 129, ../sass/style.scss */
-/* line 170, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .left-img {
   position: relative;
   right: -160px;
@@ -257,7 +254,7 @@ h3 {
 }
 
 /* line 135, ../sass/style.scss */
-/* line 178, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .middle-img {
   position: relative;
   right: -100px;
@@ -266,7 +263,7 @@ h3 {
 }
 
 /* line 141, ../sass/style.scss */
-/* line 186, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .right-img {
   position: relative;
   left: -100px;
@@ -274,51 +271,48 @@ h3 {
 }
 
 /* line 146, ../sass/style.scss */
-/* line 193, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 .step {
   display: inline-block;
   margin: 0 20px;
 }
 
 /* line 151, ../sass/style.scss */
-/* line 199, ../sass/style.scss */
+/* line 197, ../sass/style.scss */
 .step-span {
   color: gray;
   font-size: 15px;
 }
 
 /* line 156, ../sass/style.scss */
-/* line 205, ../sass/style.scss */
+/* line 203, ../sass/style.scss */
 .footer-span {
   color: gray;
   font-size: 13px;
 }
 
 /* line 161, ../sass/style.scss */
-/* line 211, ../sass/style.scss */
+/* line 209, ../sass/style.scss */
 .angular-span {
   font-size: 50px;
   color: gray;
 }
 
 /* line 166, ../sass/style.scss */
-/* line 217, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .linkedin-logo {
   position: relative;
   bottom: -14px;
 }
 
-/* line 222, ../sass/style.scss */
+/* line 220, ../sass/style.scss */
 .opt-left a {
-  font-size: 20px;
-  font-weight: bold;
-  border-right-style: solid;
-  border-right-color: gray;
-  border-right-width: 1px;
-  padding-right: 15px;
+  background-image: url("../images/ios_icon.png");
+  background-repeat: no-repeat;
+  background-position: 3px center;
 }
 
-/* line 231, ../sass/style.scss */
+/* line 226, ../sass/style.scss */
 .query {
   border: 0;
   line-height: 27px;
@@ -326,11 +320,10 @@ h3 {
   width: 200px;
   border-radius: 2px;
   font-size: 15px;
-  margin-left: 25px;
   padding: 0 6px;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .divide {
   border-bottom-style: solid;
   border-bottom-color: gray;
@@ -340,17 +333,29 @@ h3 {
   display: inline-block;
 }
 
-/* line 251, ../sass/style.scss */
+/* line 245, ../sass/style.scss */
 .container {
   padding: 0 15%;
 }
 
-/* line 255, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 .black {
   background-color: black;
 }
 
-/* line 259, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 .gray {
   background-color: gray;
+}
+
+/* line 257, ../sass/style.scss */
+.flower-image {
+  background-image: url("../images/hd-icn.svg");
+  background-repeat: no-repeat;
+  background-position: 3px center;
+}
+
+/* line 263, ../sass/style.scss */
+.input {
+  display: inline-block;
 }

@@ -77,12 +77,11 @@ h3 {
 
 /* line 72, ../sass/style.scss */
 .logo {
-  height: 36px;
-  position:relative;
-  top:12px;
-  right:5px;
+  display:inline-block;
 
 }
+
+
 
 .user-image {
   height:26px;
@@ -94,7 +93,6 @@ h3 {
 
 /* line 76, ../sass/style.scss */
 .menu {
-  // margin-left: 15%;
 }
 
 /* line 80, ../sass/style.scss */
@@ -220,12 +218,9 @@ h3 {
 }
 
 .opt-left a {
-  font-size: 20px;
-  font-weight: bold;
-  border-right-style: solid;
-  border-right-color: gray;
-  border-right-width: 1px;
-  padding-right: 15px;
+  background-image:url('../images/ios_icon.png');
+  background-repeat: no-repeat;
+  background-position: 3px center;
 }
 
 .query {
@@ -235,7 +230,6 @@ h3 {
     width: 200px;
     border-radius: 2px;
     font-size: 15px;
-    margin-left: 25px;
     padding: 0 6px;
 }
 
@@ -258,4 +252,14 @@ h3 {
 
 .gray {
 	background-color:gray;
+}
+
+.flower-image {
+  background-image:url('../images/hd-icn.svg');
+  background-repeat: no-repeat;
+  background-position: 3px center;
+}
+
+.input {
+  display: inline-block;
 }
