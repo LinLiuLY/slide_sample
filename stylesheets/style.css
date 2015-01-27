@@ -309,10 +309,12 @@ h3 {
 .opt-left a {
   background-image: url("../images/ios_icon.png");
   background-repeat: no-repeat;
-  background-position: 3px center;
+  height: 40px;
+  width: 40px;
+  background-size: 40px;
 }
 
-/* line 226, ../sass/style.scss */
+/* line 228, ../sass/style.scss */
 .query {
   border: 0;
   line-height: 27px;
@@ -323,7 +325,7 @@ h3 {
   padding: 0 6px;
 }
 
-/* line 236, ../sass/style.scss */
+/* line 238, ../sass/style.scss */
 .divide {
   border-bottom-style: solid;
   border-bottom-color: gray;
@@ -333,29 +335,42 @@ h3 {
   display: inline-block;
 }
 
-/* line 245, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 .container {
   padding: 0 15%;
 }
 
-/* line 249, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .black {
   background-color: black;
 }
 
-/* line 253, ../sass/style.scss */
+/* line 255, ../sass/style.scss */
 .gray {
   background-color: gray;
 }
 
-/* line 257, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 .flower-image {
   background-image: url("../images/hd-icn.svg");
   background-repeat: no-repeat;
   background-position: 3px center;
 }
 
-/* line 263, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 .input {
+  display: inline-block;
+  padding: 0 15px;
+}
+
+/* line 270, ../sass/style.scss */
+.logo-image {
+  display: inline-block;
+  float: left;
+  padding-right: 15px;
+}
+
+/* line 276, ../sass/style.scss */
+.logo h3 {
   display: inline-block;
 }

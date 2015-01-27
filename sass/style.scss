@@ -218,9 +218,11 @@ h3 {
 }
 
 .opt-left a {
-  background-image:url('../images/ios_icon.png');
+  background-image: url("../images/ios_icon.png");
   background-repeat: no-repeat;
-  background-position: 3px center;
+  height: 40px;
+  width: 40px;
+  background-size: 40px;
 }
 
 .query {
@@ -262,4 +264,17 @@ h3 {
 
 .input {
   display: inline-block;
+  padding:0 15px;
 }
+
+.logo-image {
+    display: inline-block;
+    float: left;
+    padding-right: 15px;
+}
+
+.logo h3 {
+  display: inline-block;
+} 
+
+
