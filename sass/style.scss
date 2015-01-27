@@ -78,10 +78,11 @@ h3 {
 /* line 72, ../sass/style.scss */
 .logo {
   display:inline-block;
-
+  padding-right:15px;
+  border-right-color: gray;
+  border-right-style: solid;
+  border-right-width: 1px;
 }
-
-
 
 .user-image {
   height:26px;
