@@ -49,20 +49,30 @@ h3 {
 .opt-bar {
   padding: 5px;
   background-color:black;
-  line-height:45px;
+  line-height:40px;
   overflow:hidden;
 }
 
 /* line 49, ../sass/style.scss */
+.opt-left,
+.opt-right {
+  height: 40px;
+}
+
 .opt-left {
-  display: inline-block;
   float:left;
 }
 
 /* line 54, ../sass/style.scss */
 .opt-right {
-  display: inline-block;
   float:right;
+}
+
+.opt-block {
+  float: left;
+  height: 26px;
+  line-height: 26px;
+  margin: 7px 3px;
 }
 
 /* line 59, ../sass/style.scss */
@@ -75,20 +85,7 @@ h3 {
   padding: 6px;
 }
 
-/* line 72, ../sass/style.scss */
-.logo {
-  display:inline-block;
-  padding-right:15px;
-  border-right-color: gray;
-  border-right-style: solid;
-  border-right-width: 1px;
-}
-
 .user-image {
-  height:26px;
-  position: relative;
-  top: 8px;
-  left: 5px;
   border-radius: 2px;
 }
 
@@ -98,8 +95,9 @@ h3 {
 
 /* line 80, ../sass/style.scss */
 .orange-button {
+  min-width: 6px;
+  padding: 0 10px;
   background-color: orange;
-  padding: 4px 13px;
   border-radius: 2px;
 }
 
@@ -167,25 +165,26 @@ h3 {
 
 /* line 129, ../sass/style.scss */
 .left-img {
-  position: relative;
-  right: -160px;
+  position: absolute;
   z-index: 1;
   vertical-align:bottom;
+  bottom:0;
+  left:18%;
+
 }
 
 /* line 135, ../sass/style.scss */
 .middle-img {
-  position: relative;
-  right: -100px;
-  vertical-align:bottom;
-  z-index: 0;
+ display:block;
+ margin:0 auto;
 }
 
 /* line 141, ../sass/style.scss */
 .right-img {
-  position: relative;
-  left: -100px;
+  position: absolute;
+  right: 4%;
   vertical-align:bottom;
+  bottom:0;
 }
 
 /* line 146, ../sass/style.scss */
@@ -271,11 +270,18 @@ h3 {
 .logo-image {
     display: inline-block;
     float: left;
-    padding-right: 15px;
 }
 
-.logo h3 {
-  display: inline-block;
+.logo {
+  padding-left: 55px;
 } 
+
+.header-container {
+  display: inline-block;
+}
+
+.opt-image {
+  position: relative;
+}
 
 
